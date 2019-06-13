@@ -67,7 +67,7 @@ let Suite = ({
       <p className='card-header-title'>
         {iconMap[status]}
         <span className='card-header-title-name'>{name}</span>
-        {time ? <i className='card-header-title-time'>({time})</i> : null}
+        {time ? <i className='card-header-title-time'>{time}s</i> : null}
       </p>
       <a className='card-header-icon'>
         {iconMap.angleDown}
