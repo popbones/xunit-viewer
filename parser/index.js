@@ -99,7 +99,7 @@ const buildTest = (test) => {
 
   expandMeta(test)
 
-  test.name = toLaxTitleCase(test.name)
+  // test.name = toLaxTitleCase(test.name)
 
   extactMessage(test)
 
@@ -153,7 +153,7 @@ const buildSuites = (suites) => {
       delete suite.skipped
 
       suite.name = suite.name || 'No Name'
-      suite.name = toLaxTitleCase(suite.name)
+      // suite.name = toLaxTitleCase(suite.name)
 
       if (suite.testcase) buildTests(suite)
 

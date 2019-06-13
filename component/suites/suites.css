@@ -121,6 +121,10 @@
   word-break: break-all;
 }
 
+.card-header-title-name {
+  font-family: monospace;
+}
+
 .card-header-title-time {
   padding-left: 10px;
   font-weight: normal;

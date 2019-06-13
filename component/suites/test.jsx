@@ -30,7 +30,7 @@ let Test = ({ uuid, status, name, message, raw, onToggle, collapsed, onToggleRaw
       }}>
       <p className='card-header-title'>
         {iconMap[status]}
-        {name}
+        <span className='card-header-title-name'>{name}</span>
         {time ? <i className='card-header-title-time'>{time}s</i> : null}
       </p>
     </header>
