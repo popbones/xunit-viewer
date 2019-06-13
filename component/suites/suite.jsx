@@ -68,6 +68,7 @@ let Suite = ({
         {iconMap[status]}
         <span className='card-header-title-name'>{name}</span>
         {time ? <i className='card-header-title-time'>{time}s</i> : null}
+        {properties["coverage.statements.pct"] ? <i className='card-header-title-time'>{properties["coverage.statements.pct"]}%</i> : null}
       </p>
       <a className='card-header-icon'>
         {iconMap.angleDown}
